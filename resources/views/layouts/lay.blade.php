@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="google-site-verification" content="PwcfXbJVQkgRjYAzf8sqiCmulb3HMRDUTyw_Xjbggfg" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="index,follow" />
         <meta property="og:locale" content="en_US" />
@@ -17,6 +18,17 @@
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:description" content="omovies Watch HD Movies Online free omovies Unblocked - omovies Watch Latest Movies and TV Shows at omovies.ga. Latest Movies Watch Online Free omovies.tv" />
         <meta name="twitter:title" content="oMovies - Watch Movies Online Free &amp; TV Shows" />
+        
+	<meta content="INDEX,FOLLOW" name="Robots"/>
+    <meta content="index,follow,snipet" name="googlebot"/>
+    <meta content="All, FOLLOW" name="GOOGLEBOTS"/>
+    <meta content="All, FOLLOW" name="YAHOOBOTS"/>
+    <meta content="All, FOLLOW" name="MSNBOTS"/>
+    <meta content="All, FOLLOW" name="BINGBOTS"/>
+    <meta content="all" name="Googlebot-Image"/>
+    <meta content="all" name="Slurp"/>
+    <meta content="all" name="Scooter"/>
+    <meta content="ALL" name="WEBCRAWLERS"/>
         <title>oMovies - Watch Movies Online Free &amp; TV Shows</title>
         
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
