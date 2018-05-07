@@ -25,12 +25,12 @@ Disclaimer: This site does not store any files on its server. All contents are p
                         <li><a href="#">Trending</a></li>
                     </ul>
                 </div>
-                <div class="col-sm-2">
+                <!-- <div class="col-sm-2">
                     <h5>Tv Series</h5>
                     <ul>
                     
                     </ul>
-                </div>
+                </div> -->
                 <!-- <div class="col-sm-3">
                     <div class="social-networks">
                         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>

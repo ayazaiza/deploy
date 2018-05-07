@@ -10638,7 +10638,7 @@ x:-o-prefocus {
 }
 
 body {
-  padding-top: 68px;
+  padding-top: 78px;
   font-family: "Roboto", Arial, Helvetica, sans-serif !important;
   -webkit-font-smoothing: antialiased;
 }
@@ -10874,7 +10874,7 @@ body {
 
 @media (min-width: 992px) {
   body {
-    padding-top: 72px;
+    padding-top: 74px;
   }
 
   .overlay {
