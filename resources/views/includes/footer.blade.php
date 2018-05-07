@@ -28,9 +28,7 @@ Disclaimer: This site does not store any files on its server. All contents are p
                 <div class="col-sm-2">
                     <h5>Tv Series</h5>
                     <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
+                    
                     </ul>
                 </div>
                 <!-- <div class="col-sm-3">
