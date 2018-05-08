@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
 use App\data;
+use App\tvseries;
 
 class moviewatchController extends Controller
 {
@@ -26,6 +27,21 @@ class moviewatchController extends Controller
         return view('pages.watchmovie')->with($da);
     }
 
+    public function series($slug,$id){
+        //     $slug = $request->input('slug');
+            // $slug  = Input::get('slug');
+        //    $id = $request->input('id');
+           // $id = Input::get('id');
+         
+           //$data = data::find($id);
+           $data = tvseries::where('imdb_id',$id)->first();
+           $myStr = str_random(20);
+    
+           $da = ['id' => $id,'slug'=> $slug,'rand'=>$myStr, 'data'=>$data];
+            //$da = array('id' => 'fdf','slug'=> 'dfdf');
+            return view('pages.watchseries')->with($da);
+        }
+
     public function watch($slug, $id, $watching){
        
         //$data = data::find($id);
@@ -35,6 +51,22 @@ class moviewatchController extends Controller
         if(strlen($watching) < 22 ){
             $da = array('id' => $id,'slug'=> $slug, 'watchid'=>$w, 'data'=>$data);
             return view('pages.watching')->with($da);
+
+        }else{
+            return view('index');
+        }
+       
+    }
+
+    public function watchser($slug, $id, $watching){
+       
+        //$data = data::find($id);
+        $data = tvseries::where('imdb_id',$id)->first();
+        $w = strlen($watching);
+
+        if(strlen($watching) < 22 ){
+            $da = array('id' => $id,'slug'=> $slug, 'watchid'=>$w, 'data'=>$data);
+            return view('pages.watchingser')->with($da);
 
         }else{
             return view('index');

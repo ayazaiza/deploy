@@ -2,6 +2,14 @@
  
     <div class="row">
         <div class="col-sm-3">
+        @if($data->poster == 'N/A')
+
+<?php $data->poster = '/img/no.png'; ?>
+
+@elseif($data->poster == '')
+<?php $data->poster = '/img/no.png'; ?>
+
+@endif
         <img src="{{$data->poster}}" class="img-fluid" style="height:350px;margin:10px;" alt="" srcset="">
         </div>
         <div class="col-sm-9">

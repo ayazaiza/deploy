@@ -25,7 +25,11 @@ Route::get('/series', 'moviesController@series');
 
 Route::get('/watchmovie/{slug}/{id}', 'moviewatchController@show');
 
+Route::get('/watchseries/{slug}/{id}', 'moviewatchController@series');
+
 Route::get('/watchmovie/{slug}/{id}/{uniqid}', 'moviewatchController@watch');
+
+Route::get('/watchseries/{slug}/{id}/{uniqid}', 'moviewatchController@watchser');
 
 
 Route::get('/ajaxcall/{qu}', 'moviewatchController@search');

@@ -142,7 +142,7 @@
   @endif
  <div class="col-md-2 col-xl-2 col-xs-4 col-lg-2 col-sm-4 singleVideo "  tooltip="yes" >
 
-<a href="#" class="d-block mb-3 h-70 subitem ml-mask">
+<a href="/watchseries/{{$movies->slug}}/{{$movies->imdb_id}}" class="d-block mb-3 h-70 subitem ml-mask">
 <img alt="img" class="img-fluid img-thumbnail img-border" src="{{$movies->poster}}">
 </a>
 
@@ -187,8 +187,8 @@
    </div>
 
 <div class="jtip-bottom">
-<a href="pages/watch/?iwatch=tt7908312&id=735" class="btn btn-block btn-successful">
-<i class="fa fa-play-circle mr10"></i>Watch movie</a>
+<a href="/watchseries/{{$movies->slug}}/{{$movies->imdb_id}}" class="btn btn-block btn-successful">
+<i class="fa fa-play-circle mr10"></i>Watch series</a>
 
 </div>
 </div>

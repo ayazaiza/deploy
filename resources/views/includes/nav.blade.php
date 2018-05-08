@@ -67,7 +67,7 @@
         <a class="nav-link" href="#">COUNTRY</a>
       </li> -->
       <li class="nav-item {{ Request::segment(1) === 'series' ? 'active' : null }}" >
-        <a class="nav-link" href="{{ url('series' )}}">TV SHOWS</a>
+        <a class="nav-link" href="{{ url('series' )}}">TV SERIES</a>
       </li>
       <li class="nav-item {{ Request::segment(1) === 'movies' ? 'active' : null }}"  >
         <a class="nav-link" href="{{ url('movies' )}}">MOVIES</a>
