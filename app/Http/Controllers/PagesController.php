@@ -19,4 +19,9 @@ class PagesController extends Controller
         $array = array('title' => 'About Page', "fields" => ['web','pages']);
         return view('pages.about')->with($array);
     }
+
+    public  function dmca(){
+
+        return view('pages.dmca');
+    }
 }

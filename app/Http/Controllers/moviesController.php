@@ -38,8 +38,16 @@ class moviesController extends Controller
     {
 
         $ge = data::orderBy('rel_date','desc')->where('genre','LIKE','%'.$gen.'%')->paginate(33);
-       // return $ge;
+  
         return view('pages.genres')->with('ge',$ge);
+    }
+
+    public function coun($cou)
+    {
+
+        $ge = data::orderBy('rel_date','desc')->where('country','LIKE','%'.$cou.'%')->paginate(33);
+
+        return view('pages.country')->with('ge',$ge);
     }
 
 

@@ -34,6 +34,12 @@ Route::any('/searchquery','moviesController@searchquery');
 
 Route::get('/getby/{gen}','moviesController@genres');
 
+Route::get('/getcoun/{cou}','moviesController@coun');
+
+Route::get('/dmca','PagesController@dmca');
+
+
+
 
 //Route::resource('/watchmovie', 'watchmovieController');
 

@@ -44,9 +44,28 @@
                
               </div>
             </li>
-      <li class="nav-item">
+
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">COUNTRY <span class="caret"></span></a>
+              <div class="dropdown-menu" aria-labelledby="themes">
+             
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="/getcoun/Australia">Australia</a>
+                <a class="dropdown-item" href="/getcoun/Canada">Canada</a>
+                <a class="dropdown-item" href="/getcoun/china">China</a>
+                <a class="dropdown-item" href="/getcoun/India">India</a>
+                <a class="dropdown-item" href="/getcoun/Japan">Japan</a>
+                <a class="dropdown-item" href="/getcoun/Southkorea">Southkorea</a>
+                <a class="dropdown-item" href="/getcoun/US">US</a>
+                <a class="dropdown-item" href="/getcoun/uk">UK</a>
+              
+              
+               
+              </div>
+            </li>
+      <!-- <li class="nav-item">
         <a class="nav-link" href="#">COUNTRY</a>
-      </li>
+      </li> -->
       <li class="nav-item {{ Request::segment(1) === 'series' ? 'active' : null }}" >
         <a class="nav-link" href="{{ url('series' )}}">TV SHOWS</a>
       </li>
@@ -54,8 +73,12 @@
         <a class="nav-link" href="{{ url('movies' )}}">MOVIES</a>
       </li>
 
-       <li class="nav-item">
-        <a class="nav-link" href="#">EPISODES</a>
+       <!-- <li class="nav-item">
+        <a class="nav-link" href="">EPISODES</a>
+      </li> -->
+
+      <li class="nav-item {{ Request::segment(1) === 'dmca' ? 'active' : null }}">
+        <a class="nav-link" href="{{ url('dmca')}}">DMCA</a>
       </li>
     </ul>
   

@@ -12,25 +12,25 @@ Disclaimer: This site does not store any files on its server. All contents are p
                 <div class="col-sm-2">
                     <h5>omovies.ga</h5>
                     <ul>
-                        <li><a href="#">Episodes</a></li>
-                        <li><a href="#">Tv Shows</a></li>
-                        <li><a href="#">Gomovies</a></li>
+                        <li><a href="{{ url('series' )}}">Episodes</a></li>
+                        <li><a href="{{ url('series' )}}">Tv Shows</a></li>
+                        <li><a href="{{ url('movies' )}}">Gomovies</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
                     <h5>Movies</h5>
                     <ul>
-                        <li><a href="#">Gomovies</a></li>
-                        <li><a href="#">Top IMDB</a></li>
-                        <li><a href="#">Trending</a></li>
+                        <li><a href="{{ url('movies' )}}">Gomovies</a></li>
+                        <li><a href="{{ url('movies' )}}">Top IMDB</a></li>
+                        <li><a href="{{ url('movies' )}}">Trending</a></li>
                     </ul>
                 </div>
-                <!-- <div class="col-sm-2">
-                    <h5>Tv Series</h5>
+                <div class="col-sm-2">
+                    <h5>Others</h5>
                     <ul>
-                    
+                    <li><a href="{{ url('dmca' )}}">DMCA</a></li>
                     </ul>
-                </div> -->
+                </div>
                 <!-- <div class="col-sm-3">
                     <div class="social-networks">
                         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
