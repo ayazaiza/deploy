@@ -4,7 +4,7 @@
 
 
 <div class="container-fluid">
-<div class="card text-white bg-primary my-3 text-center">
+<div class=" text-white bg-primary my-3 text-center">
         <div class="card-body">
           <p class="text-white m-0">Ads can be a pain, but they are our only way to maintain the server and keep website live. Your patience is highly appreciated and we hope our service can be worth it.</p>
         </div>
