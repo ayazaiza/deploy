@@ -35,11 +35,12 @@
     <meta content="all" name="Scooter"/>
     <meta content="ALL" name="WEBCRAWLERS"/>
         <title>Watch {{$data->title}} online free omovies | omovies.ga</title>
-
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    
+        <!-- <link rel="stylesheet" href="{{asset('css/app.css')}}"> -->
+        <link rel="stylesheet" href="/css/app.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="{{asset('css/footer.css')}}">
-        <script src="{{asset('js/app.js')}}"></script>
+        <script src="/js/app.js'"></script>
 
 
     
