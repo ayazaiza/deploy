@@ -16,13 +16,13 @@
         <meta name="description" content="{{$data->description}} omovies.ga" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content=" {{$data->title}}- omovies.ga" />
+        <meta property="og:title" content=" Watch {{$data->title}} online free omovies | omovies.ga" />
         <meta property="og:description" content="{{$data->description}} omovies.ga." />
         <meta property="og:url" content="http://www.omovies.ga/watchmovie/the-croods-2/tt2850386" />
         <meta property="og:site_name" content="Online Free omovies | omovies.ga" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:description" content="{{$data->description}} omovies.gaa" />
-        <meta name="twitter:title" content="{{$data->descrition}} - omovies.ga" />
+        <meta name="twitter:title" content="Watch {{$data->title}} online free omovies | omovies.ga" />
         
 	<meta content="INDEX,FOLLOW" name="Robots"/>
     <meta content="index,follow,snipet" name="googlebot"/>
@@ -34,7 +34,7 @@
     <meta content="all" name="Slurp"/>
     <meta content="all" name="Scooter"/>
     <meta content="ALL" name="WEBCRAWLERS"/>
-        <title>{{$data->title}} - omovies.ga</title>
+        <title>Watch {{$data->title}} online free omovies | omovies.ga</title>
 
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
