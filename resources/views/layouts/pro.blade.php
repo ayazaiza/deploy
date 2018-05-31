@@ -13,27 +13,27 @@
         <meta name="robots" content="index,follow" />
         <meta property="og:locale" content="en_US" />
         <meta http-equiv="content-language" content="en" /> 
-        <meta name="description" content="{{$data->description}} omovies.ga" />
+        <meta name="description" content="Watch {{$data->title}} Online Free omovies {{$data->title}} Full Movie Online Free {{$data->title}} omovies {{$data->title}} Watch Online Free {{$data->title}} Watch Full Movie Online free." />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content=" Watch {{$data->title}} online free omovies | omovies.ga" />
-        <meta property="og:description" content="{{$data->description}} omovies.ga." />
-        <meta property="og:url" content="http://www.omovies.ga/watchmovie/the-croods-2/tt2850386" />
+        <meta property="og:description" content="Watch {{$data->title}} Online Free omovies {{$data->title}} Full Movie Online Free {{$data->title}} omovies {{$data->title}} Watch Online Free {{$data->title}} Watch Full Movie Online free." />
+        <meta property="og:url" content="http://www.omovies.ga/watchmovie/{{$data->slug}}/{{$data->imdb_id}}" />
         <meta property="og:site_name" content="Online Free omovies | omovies.ga" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:description" content="{{$data->description}} omovies.gaa" />
+        <meta name="twitter:description" content="Watch {{$data->title}} Online Free omovies {{$data->title}} Full Movie Online Free {{$data->title}} omovies {{$data->title}} Watch Online Free {{$data->title}} Watch Full Movie Online free." />
         <meta name="twitter:title" content="Watch {{$data->title}} online free omovies | omovies.ga" />
         
-	<meta content="INDEX,FOLLOW" name="Robots"/>
-    <meta content="index,follow,snipet" name="googlebot"/>
-    <meta content="All, FOLLOW" name="GOOGLEBOTS"/>
-    <meta content="All, FOLLOW" name="YAHOOBOTS"/>
-    <meta content="All, FOLLOW" name="MSNBOTS"/>
-    <meta content="All, FOLLOW" name="BINGBOTS"/>
-    <meta content="all" name="Googlebot-Image"/>
-    <meta content="all" name="Slurp"/>
-    <meta content="all" name="Scooter"/>
-    <meta content="ALL" name="WEBCRAWLERS"/>
+        <meta content="INDEX,FOLLOW" name="Robots"/>
+        <meta content="index,follow,snipet" name="googlebot"/>
+        <meta content="All, FOLLOW" name="GOOGLEBOTS"/>
+        <meta content="All, FOLLOW" name="YAHOOBOTS"/>
+        <meta content="All, FOLLOW" name="MSNBOTS"/>
+        <meta content="All, FOLLOW" name="BINGBOTS"/>
+        <meta content="all" name="Googlebot-Image"/>
+        <meta content="all" name="Slurp"/>
+        <meta content="all" name="Scooter"/>
+        <meta content="ALL" name="WEBCRAWLERS"/>
         <title>Watch {{$data->title}} online free omovies | omovies.ga</title>
     
         <!-- <link rel="stylesheet" href="{{asset('css/app.css')}}"> -->
