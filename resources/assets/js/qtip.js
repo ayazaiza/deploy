@@ -53,7 +53,7 @@ $(document).ready(function(){
               // alert(data[0].title);
               $.each(data, function(i,d){
                 html += '<div class="item "><img class="thumb" src="'+d.poster+'"><div class="info">';
-                html += '<a class="name" href="#">'+d.title+'</a>';
+                html += '<a class="name" href="/watchmovie/'+d.slug+'/'+d.imdb_id+'">'+d.title+'</a>';
                 html += ' <div class="meta">';
             
             html +=  '<span>IMDb: <span class="imdb">'+d.rating+'</span></span>';
